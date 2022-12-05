@@ -23,7 +23,7 @@ class _MyPOCState extends State<MyPOC> {
                 SizedBox(
                   height: 100,
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       const SizedBox(
                         width: 4,
@@ -37,13 +37,13 @@ class _MyPOCState extends State<MyPOC> {
                           ),
                         ),
                       ),
-                      SizedBox(
-                        width: 18,
-                      ),
-                      InfiniteIconButton(
-                        icon: InfiniteIconData.close,
-                        onTap: () {},
-                      ),
+                      // SizedBox(
+                      //   width: 18,
+                      // ),
+                      // InfiniteIconButton(
+                      //   icon: InfiniteIconData.close,
+                      //   onTap: () {},
+                      // ),
                     ],
                   ),
                 ),
